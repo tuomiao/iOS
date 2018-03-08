@@ -7,17 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACA255F12040EA5400AAF28F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA255F02040EA5400AAF28F /* AppDelegate.swift */; };
-		ACA255F32040EA5400AAF28F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA255F22040EA5400AAF28F /* ViewController.swift */; };
+		AC2752992047FB1E00CB56A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA255F02040EA5400AAF28F /* AppDelegate.swift */; };
+		AC27529A2047FB2400CB56A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA255F22040EA5400AAF28F /* ViewController.swift */; };
+		AC27529B2047FB4D00CB56A2 /* WIFISettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA25629204793C000AAF28F /* WIFISettingController.swift */; };
+		AC4531622048D5B100710869 /* JMError.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC4531572048D5B100710869 /* JMError.plist */; };
+		AC4531632048D5B100710869 /* JMWiressSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4531612048D5B100710869 /* JMWiressSDK.a */; };
+		AC4531712048D87900710869 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4531692048D87900710869 /* SVIndefiniteAnimatedView.m */; };
+		AC4531722048D87900710869 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC45316B2048D87900710869 /* SVProgressAnimatedView.m */; };
+		AC4531732048D87900710869 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC45316C2048D87900710869 /* SVProgressHUD.bundle */; };
+		AC4531742048D87900710869 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AC45316E2048D87900710869 /* SVProgressHUD.m */; };
+		AC4531752048D87900710869 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4531702048D87900710869 /* SVRadialGradientLayer.m */; };
+		AC4531B7204A290B00710869 /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4531B6204A290B00710869 /* PrintManager.swift */; };
 		ACA255F62040EA5400AAF28F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA255F42040EA5400AAF28F /* Main.storyboard */; };
 		ACA255F82040EA5400AAF28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA255F72040EA5400AAF28F /* Assets.xcassets */; };
 		ACA255FB2040EA5400AAF28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA255F92040EA5400AAF28F /* LaunchScreen.storyboard */; };
 		ACA256072043F9DD00AAF28F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA256062043F9DD00AAF28F /* ExternalAccessory.framework */; };
-		ACA2560B2044070B00AAF28F /* MyUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA2560A2044070B00AAF28F /* MyUIWebView.swift */; };
 		ACA2562820469AC500AAF28F /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA2562720469AC500AAF28F /* AppIcon.png */; };
+		ACA2562F204797BC00AAF28F /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA2562C204797BC00AAF28F /* Back.png */; };
+		ACA25630204797BC00AAF28F /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA2562D204797BC00AAF28F /* Back@2x.png */; };
+		ACA25631204797BC00AAF28F /* Back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA2562E204797BC00AAF28F /* Back@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC2752BA2047FF1700CB56A2 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		AC4531582048D5B100710869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/JMError.plist; sourceTree = "<group>"; };
+		AC4531592048D5B100710869 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/JMError.plist; sourceTree = "<group>"; };
+		AC45315A2048D5B100710869 /* JMBle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBle.h; sourceTree = "<group>"; };
+		AC45315B2048D5B100710869 /* JMEnumBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMEnumBlock.h; sourceTree = "<group>"; };
+		AC45315C2048D5B100710869 /* JMWifi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWifi.h; sourceTree = "<group>"; };
+		AC45315D2048D5B100710869 /* JMWirelessBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWirelessBasic.h; sourceTree = "<group>"; };
+		AC45315E2048D5B100710869 /* JMWirelessDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMWirelessDelegate.h; sourceTree = "<group>"; };
+		AC45315F2048D5B100710869 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/JMError.plist"; sourceTree = "<group>"; };
+		AC4531602048D5B100710869 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/JMError.plist"; sourceTree = "<group>"; };
+		AC4531612048D5B100710869 /* JMWiressSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = JMWiressSDK.a; sourceTree = "<group>"; };
+		AC4531682048D87900710869 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		AC4531692048D87900710869 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		AC45316A2048D87900710869 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		AC45316B2048D87900710869 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		AC45316C2048D87900710869 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		AC45316D2048D87900710869 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		AC45316E2048D87900710869 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		AC45316F2048D87900710869 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		AC4531702048D87900710869 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		AC4531B6204A290B00710869 /* PrintManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintManager.swift; sourceTree = "<group>"; };
 		ACA255ED2040EA5400AAF28F /* Jincaishou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jincaishou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA255F02040EA5400AAF28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA255F22040EA5400AAF28F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,8 +61,11 @@
 		ACA256032040EA9300AAF28F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		ACA256042043F9B000AAF28F /* Jincaishou.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jincaishou.entitlements; sourceTree = "<group>"; };
 		ACA256062043F9DD00AAF28F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
-		ACA2560A2044070B00AAF28F /* MyUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIWebView.swift; sourceTree = "<group>"; };
 		ACA2562720469AC500AAF28F /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		ACA25629204793C000AAF28F /* WIFISettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIFISettingController.swift; sourceTree = "<group>"; };
+		ACA2562C204797BC00AAF28F /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		ACA2562D204797BC00AAF28F /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
+		ACA2562E204797BC00AAF28F /* Back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4531632048D5B100710869 /* JMWiressSDK.a in Frameworks */,
 				ACA256072043F9DD00AAF28F /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +81,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4531552048D5B100710869 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				AC4531562048D5B100710869 /* include */,
+				AC4531612048D5B100710869 /* JMWiressSDK.a */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		AC4531562048D5B100710869 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AC4531572048D5B100710869 /* JMError.plist */,
+				AC45315A2048D5B100710869 /* JMBle.h */,
+				AC45315B2048D5B100710869 /* JMEnumBlock.h */,
+				AC45315C2048D5B100710869 /* JMWifi.h */,
+				AC45315D2048D5B100710869 /* JMWirelessBasic.h */,
+				AC45315E2048D5B100710869 /* JMWirelessDelegate.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AC4531672048D87900710869 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AC4531682048D87900710869 /* SVIndefiniteAnimatedView.h */,
+				AC4531692048D87900710869 /* SVIndefiniteAnimatedView.m */,
+				AC45316A2048D87900710869 /* SVProgressAnimatedView.h */,
+				AC45316B2048D87900710869 /* SVProgressAnimatedView.m */,
+				AC45316C2048D87900710869 /* SVProgressHUD.bundle */,
+				AC45316D2048D87900710869 /* SVProgressHUD.h */,
+				AC45316E2048D87900710869 /* SVProgressHUD.m */,
+				AC45316F2048D87900710869 /* SVRadialGradientLayer.h */,
+				AC4531702048D87900710869 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		ACA255E42040EA5400AAF28F = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +139,11 @@
 		ACA255EF2040EA5400AAF28F /* Jincaishou */ = {
 			isa = PBXGroup;
 			children = (
+				AC4531672048D87900710869 /* SVProgressHUD */,
+				AC4531552048D5B100710869 /* SDK */,
+				ACA256412047E6BC00AAF28F /* Print */,
+				ACA2562B204797BC00AAF28F /* Img */,
 				ACA2562720469AC500AAF28F /* AppIcon.png */,
-				ACA25609204406FC00AAF28F /* MyWebView */,
 				ACA256042043F9B000AAF28F /* Jincaishou.entitlements */,
 				ACA255F02040EA5400AAF28F /* AppDelegate.swift */,
 				ACA255F22040EA5400AAF28F /* ViewController.swift */,
@@ -74,6 +151,8 @@
 				ACA255F72040EA5400AAF28F /* Assets.xcassets */,
 				ACA255F92040EA5400AAF28F /* LaunchScreen.storyboard */,
 				ACA255FC2040EA5400AAF28F /* Info.plist */,
+				ACA25629204793C000AAF28F /* WIFISettingController.swift */,
+				AC2752BA2047FF1700CB56A2 /* BridgingHeader.h */,
 			);
 			path = Jincaishou;
 			sourceTree = "<group>";
@@ -86,12 +165,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ACA25609204406FC00AAF28F /* MyWebView */ = {
+		ACA2562B204797BC00AAF28F /* Img */ = {
 			isa = PBXGroup;
 			children = (
-				ACA2560A2044070B00AAF28F /* MyUIWebView.swift */,
+				ACA2562C204797BC00AAF28F /* Back.png */,
+				ACA2562D204797BC00AAF28F /* Back@2x.png */,
+				ACA2562E204797BC00AAF28F /* Back@3x.png */,
 			);
-			path = MyWebView;
+			path = Img;
+			sourceTree = "<group>";
+		};
+		ACA256412047E6BC00AAF28F /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				AC4531B6204A290B00710869 /* PrintManager.swift */,
+			);
+			path = Print;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +209,9 @@
 		ACA255E52040EA5400AAF28F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"得到的",
+				);
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = yachi;
@@ -149,6 +241,7 @@
 				en,
 				Base,
 				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = ACA255E42040EA5400AAF28F;
 			productRefGroup = ACA255EE2040EA5400AAF28F /* Products */;
@@ -165,10 +258,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4531622048D5B100710869 /* JMError.plist in Resources */,
+				AC4531732048D87900710869 /* SVProgressHUD.bundle in Resources */,
 				ACA2562820469AC500AAF28F /* AppIcon.png in Resources */,
+				ACA25630204797BC00AAF28F /* Back@2x.png in Resources */,
 				ACA255FB2040EA5400AAF28F /* LaunchScreen.storyboard in Resources */,
+				ACA2562F204797BC00AAF28F /* Back.png in Resources */,
 				ACA255F82040EA5400AAF28F /* Assets.xcassets in Resources */,
 				ACA255F62040EA5400AAF28F /* Main.storyboard in Resources */,
+				ACA25631204797BC00AAF28F /* Back@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,15 +277,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA2560B2044070B00AAF28F /* MyUIWebView.swift in Sources */,
-				ACA255F32040EA5400AAF28F /* ViewController.swift in Sources */,
-				ACA255F12040EA5400AAF28F /* AppDelegate.swift in Sources */,
+				AC4531712048D87900710869 /* SVIndefiniteAnimatedView.m in Sources */,
+				AC27529B2047FB4D00CB56A2 /* WIFISettingController.swift in Sources */,
+				AC4531752048D87900710869 /* SVRadialGradientLayer.m in Sources */,
+				AC4531742048D87900710869 /* SVProgressHUD.m in Sources */,
+				AC27529A2047FB2400CB56A2 /* ViewController.swift in Sources */,
+				AC4531B7204A290B00710869 /* PrintManager.swift in Sources */,
+				AC2752992047FB1E00CB56A2 /* AppDelegate.swift in Sources */,
+				AC4531722048D87900710869 /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AC4531572048D5B100710869 /* JMError.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4531582048D5B100710869 /* Base */,
+				AC4531592048D5B100710869 /* en */,
+				AC45315F2048D5B100710869 /* zh-Hans */,
+				AC4531602048D5B100710869 /* zh-Hant */,
+			);
+			name = JMError.plist;
+			sourceTree = "<group>";
+		};
 		ACA255F42040EA5400AAF28F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -324,14 +438,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Jincaishou/Jincaishou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C73R8BUHY3;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				INFOPLIST_FILE = Jincaishou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yachi.gangmao.yalong;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jincaishou/SDK",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengwang.jincaishou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Jincaishou/BridgingHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -341,14 +468,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Jincaishou/Jincaishou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C73R8BUHY3;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				INFOPLIST_FILE = Jincaishou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yachi.gangmao.yalong;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jincaishou/SDK",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengwang.jincaishou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Jincaishou/BridgingHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

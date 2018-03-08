@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>20000</key>
+	<string>蓝牙状态不明</string>
+	<key>20001</key>
+	<string>蓝牙重置</string>
+	<key>20002</key>
+	<string>不支持蓝牙</string>
+	<key>20003</key>
+	<string>蓝牙未授权</string>
+	<key>20004</key>
+	<string>蓝牙已关闭</string>
+	<key>20005</key>
+	<string>连接超时</string>
+	<key>20007</key>
+	<string>数据接收超时</string>
+	<key>20009</key>
+	<string>清除打印缓存错误</string>
+	<key>20010</key>
+	<string>打印机类型不明</string>
+	<key>20011</key>
+	<string>数据发送异常</string>
+	<key>20012</key>
+	<string>连接异常</string>
+	<key>20013</key>
+	<string>HTML 解析异常</string>
+	<key>20014</key>
+	<string>获取网络图片异常</string>
+	<key>20015</key>
+	<string>图片像素超限</string>
+	<key>20016</key>
+	<string>JSON 解析异常</string>
+	<key>20017</key>
+	<string>打印宽度解析异常</string>
+	<key>20018</key>
+	<string>打印属性解析异常</string>
+	<key>30000</key>
+	<string>错误类型不明</string>
+	<key>30001</key>
+	<string>包头错误</string>
+	<key>30002</key>
+	<string>打印机校验错误</string>
+	<key>30003</key>
+	<string>打印机接收缓存区满</string>
+	<key>30004</key>
+	<string>打印机接收超时</string>
+	<key>30005</key>
+	<string>包序号相同</string>
+	<key>30006</key>
+	<string>打印机脱机</string>
+	<key>30007</key>
+	<string>钱箱打开</string>
+	<key>30008</key>
+	<string>上盖打开</string>
+	<key>30009</key>
+	<string>纸尽</string>
+	<key>30010</key>
+	<string>纸将尽</string>
+	<key>30011</key>
+	<string>切刀故障</string>
+	<key>30012</key>
+	<string>打印机过热</string>
+</dict>
+</plist>

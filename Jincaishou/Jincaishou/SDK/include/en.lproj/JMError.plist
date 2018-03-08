@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>20000</key>
+	<string>The bluetooth status is unknown</string>
+	<key>20001</key>
+	<string>Bluetooth reset</string>
+	<key>20002</key>
+	<string>Unsupport bluetooth</string>
+	<key>20003</key>
+	<string>Bluetooth unauthorized</string>
+	<key>20004</key>
+	<string>Bluetooth has closed</string>
+	<key>20005</key>
+	<string>Connection timeout</string>
+	<key>20007</key>
+	<string>Data reception timeout</string>
+	<key>20009</key>
+	<string>Remove the printer cache error</string>
+	<key>20010</key>
+	<string>The printer type is unknown</string>
+	<key>20011</key>
+	<string>Abnormal data</string>
+	<key>20012</key>
+	<string>Connection exception</string>
+	<key>20013</key>
+	<string>HTML parse exception</string>
+	<key>20014</key>
+	<string>Get the image online exception</string>
+	<key>20015</key>
+	<string>Image pixel transfinite</string>
+	<key>20016</key>
+	<string>JSON parse exception</string>
+	<key>20017</key>
+	<string>Print width parse exception</string>
+	<key>20018</key>
+	<string>Print attribute parse exception</string>
+	<key>30000</key>
+	<string>Unknown error</string>
+	<key>30001</key>
+	<string>The packet header error</string>
+	<key>30002</key>
+	<string>Printer calibration error</string>
+	<key>30003</key>
+	<string>Printer receive buffer is full</string>
+	<key>30004</key>
+	<string>Printer receive timeout</string>
+	<key>30005</key>
+	<string>Package serial number is the same</string>
+	<key>30006</key>
+	<string>The printer is offline</string>
+	<key>30007</key>
+	<string>Cashbox open</string>
+	<key>30008</key>
+	<string>Open the cover</string>
+	<key>30009</key>
+	<string>Paper out</string>
+	<key>30010</key>
+	<string>Paper will out</string>
+	<key>30011</key>
+	<string>Cutter failure</string>
+	<key>30012</key>
+	<string>The printer is overheating</string>
+</dict>
+</plist>

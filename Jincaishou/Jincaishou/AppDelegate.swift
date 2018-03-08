@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         //请求通知权限
+      //  self.window?.rootViewController = ViewController as UIViewController
         if #available(iOS 10.0, *) {
             UNUserNotificationCenter.current()
                 .requestAuthorization(options: [.alert, .sound, .badge]) {
@@ -119,7 +120,7 @@ class NotificationHandler: NSObject, UNUserNotificationCenterDelegate {
                                 willPresent notification: UNNotification,
                                 withCompletionHandler completionHandler:
         @escaping (UNNotificationPresentationOptions) -> Void) {
-        
+    
         completionHandler([.alert, .sound,.badge])
         
         // 如果不想显示某个通知，可以直接用空 options 调用 completionHandler:
@@ -166,7 +167,7 @@ class NotificationHandler: NSObject, UNUserNotificationCenterDelegate {
             if msgId != nil {
                 do{
                     // 转换成URL
-                    let url = URL(string: "http://stpb.guoyuandi.cn/Data/PushMsg/UpdateMessageRead?mrId=\(msgId)" )
+                    let url = URL(string: "http://teststpb.guoyuandi.cn/Data/PushMsg/UpdateMessageRead?mrId=\(msgId)" )
                     // 转换成NSURLRequest
                     let lastRequest = URLRequest(url: url!)
                     NSURLConnection.sendAsynchronousRequest(lastRequest, queue:OperationQueue()) { (res, data, error)in
